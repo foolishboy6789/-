@@ -1,0 +1,15 @@
+{
+    "name": "uestcLC",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:foolishboy6789/uestcLC.git",
+    "license": "MIT",
+    "devDependencies": {
+        "vuepress": "^1.9.9"
+    },
+    "scripts": {
+        "docs:dev": "vuepress dev docs --temp .temp",
+        "docs:build": "vuepress build docs",
+        "deploy": "bash deploy.sh"
+    }
+}
